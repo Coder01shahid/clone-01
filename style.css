@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:  'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(15, 32, 77);
+}
+
+.nav{
+    display: flex;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-part{
+    display: flex;
+    gap: 30px;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.content{
+    height: calc(100% - 100px);
+    width: 100%;
+}
+.top{
+    height: 60%;
+    width: 100%;
+    /* text-align: center; */
+    font-size: 8em;
+    padding-top: 13vh;
+    padding-left: 10vw;
+    
+    
+}
+h2{
+    font-weight: 100;
+}
+h5{
+    font-weight: 500;
+    color: rgb(65, 122, 217);
+}
+span{
+    color: white;
+}
+p{
+    color: rgb(65, 122, 217);
+}
+.botom{
+    height: 40%;
+    width: 100%;
+    padding-top: 6vh;
+   
+    padding-left: 30vw;
+    padding-right: 10vw;
+    font-size: 2em;
+}
